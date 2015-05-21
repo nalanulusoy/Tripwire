@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.example.tripware"
+          android:installLocation="preferExternal"
+          android:versionCode="1"
+          android:versionName="1.0">
+
+
+    <application android:label="Tripwire" android:icon="@drawable/tripwire"  android:logo="@drawable/tripwire" >
+
+
+        <activity android:name=".MainActivity"
+                  android:label="Tripwire"
+                  android:logo="@drawable/home"
+                  android:windowSoftInputMode="stateHidden">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+
+        </activity>
+        <activity
+                android:name=".ResultActivity"
+                android:label="@string/result_activity"
+                android:logo="@drawable/watch">
+        </activity>
+
+        <activity
+                android:name=".SummaryActivity"
+                android:label="@string/summary_activity" >
+        </activity>
+
+        <activity
+                android:name=".WarningActivity"
+                android:label="@string/warning_activity"
+                android:logo="@drawable/degree">
+        </activity>
+        <activity
+                android:name=".Changefile"
+                android:label="@string/important_degree"
+                android:logo="@drawable/change">
+        </activity>
+        <activity
+                android:name=".About"
+                android:label="Hakkında"
+                android:logo="@drawable/about">
+        </activity>
+
+    </application>
+
+     <uses-sdk android:minSdkVersion="19"  > </uses-sdk>
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_SUPERUSER" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.ACCESS_SUPERUSER" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+</manifest>

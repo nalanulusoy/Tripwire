@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="80dp"
+            android:color="@android:color/background_dark"
+            android:background="@drawable/black"
+            android:text="@string/geri"
+            android:id="@+id/button_geri" android:layout_gravity="right"
+            android:drawableLeft="@drawable/back"
+       />
+
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="75dp"
+            android:background="@drawable/black"
+            android:id="@+id/button_kaydet"
+            android:layout_gravity="right"
+            android:drawableLeft="@drawable/kritik"
+            android:text="Kritik"
+            />
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="75dp"
+            android:background="@drawable/black"
+            android:id="@+id/button_kaydet2"
+            android:drawableLeft="@drawable/search"
+            android:layout_gravity="right"
+            android:text="Normal"/>
+    <TextView android:layout_width="match_parent" android:id="@+id/selection" android:layout_height="0dp"
+              android:padding="4dip"
+              android:background="#FF666666"  />
+
+
+
+
+</LinearLayout>

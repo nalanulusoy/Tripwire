@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+
+        <item android:id="@+id/Arama"
+              android:src="@drawable/dosya"
+              android:title="@string/menu_arama"
+              android:icon="@drawable/search"
+              android:showAsAction="always"  />
+        <item android:id="@+id/izlenen"
+              android:icon="@drawable/watch"
+             android:title="@string/menu_izlenen"
+              android:showAsAction="always"  ></item >
+    <item android:id="@+id/hakkında"
+          android:icon="@drawable/about"
+          android:title="Hakkında"
+          android:showAsAction="always"  >
+    </item >
+
+</menu>
