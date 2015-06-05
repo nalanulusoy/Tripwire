@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tripwire</string>
+
+    <string name="main_activity">Anasayfa</string>
+    <string name="result_activity">İzlenen Dosyalar</string>
+    <string name="summary_activity">Dosya Özetleri</string>
+    <string name="file_activity">Dosya İşlemleri</string>
+    <string name="appp_name">WriteSDCard</string>
+    <string name="action_settings">Settings</string>
+    <string name="geri"></string>
+    <string name="summary">Özet</string>
+    <string name="warning_activity">Önem Derecesi</string>
+    <string name="important_degree">Degisen Dosyalar</string>
+    <string name="btn_name">İzlenen Dosyalar</string>
+    <string name="btn_kaydet">Kaydet</string>
+
+    <string name="menu_kritik">kritik</string>
+    <string name="menu_arama">Dosya Arama</string>
+    <string name="menu_geri">Geri</string>
+    <string name="menu_anasayfa">Anasayfa</string>
+    <string name="menu_kaydet">Kaydet</string>
+    <string name="menu_mail">Mail Gönder</string>
+    <string name="menu_baslat">Yeniden Başlat</string>
+    <string name="menu_sistem">Sistem Sıfırla</string>
+    <string name="menu_kontrol">Kontrol</string>
+    <string name="menu_izlenen">İzlenen Dosyalar</string>
+    <string name="menu_normal">normal</string>
+    <string name="imageview1">imageview</string>
+    <string name="button_geri">Geri</string>
+    <string name="button_reboot">Yeniden Başlat</string>
+    <string name="button_kontrol">Kontrol</string>
+    <string name="button_anasayfa">Anasayfa</string>
+    <string name="button_sıfırla">Sistem Sıfırla</string>
+
+
+</resources>

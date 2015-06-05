@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="RootTools-3.4">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/RootTools-3.4.jar!/" />
+      <root url="jar://$USER_HOME$/İndirilenler/javax.mail-1.4.4.jar.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
